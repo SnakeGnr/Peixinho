@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+p, h1,h2,h3,h5,h4, h6, strong, a, button,figcaption {
+  font-family: 'Handlee', cursive;  
+}  
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.view {
+  background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: #4285F4;
+  }
+}
+
+  .colorGeral{
+    background-color: #00BFFF;
+  }
+
+  .margeBot{
+    
+    padding-bottom: 70px;
+  }
+
+  .jumbotron{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .backgroundJumbo{
+    background-image: url("../src/img/frente.jpg");
+    background-position: center;
+  }
+
+  .backgroundJumbo2{
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .backgroundJumbo3{
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .meh{
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+ 
+  .line1{
+   width: 210px;
+  }
+  .line2{
+    width: 75px;
+   }
+   .line3{
+    width: 80px;
+   }
+   .line4{
+    width: 80px;
+   }
+
+  /* TAMANHO DAS FONTES */
+   .margeCorpo{
+    padding-top: 30px;
+   }
+  .pHead{
+   font-size: 25px;
+  }
+ .pBody{
+  font-size: 25px;
+ }
+  .pFoot{
+  font-size: 20px;
+  }
+  .colorLine{
+    background-color: #00BFFF!important;
+  }
+
+  h1{
+    font-size: 65px
+  }
+  h2{
+    font-size: 55px
+  }
+  .margeCorpo p{
+    font-size:25px;
+  }
+
+  .imgTamanho{
+    width: 480px;
+    height: 240px;
+  }
+
+  h1{
+    font-size: 65px
+  }
+  h2{
+    font-size: 55px
+  }
+  .margeCorpo p{
+    font-size:25px;
+  }
+
+  .imgTamanho{
+    width: 480px;
+    height: 240px;
+  }
+/* .imgSombra{
+  width: 480px;
+  height: 240px;
+} */
+
+.teste{
+  font-size: 30px;
+}
+
+.teste2{
+  font-size: 19px;
+}
+
+.galeria{
+  padding-top: 60px;
+}
+
+.porcoes{
+  padding-top: 100px;   
+}
+
+.border{
+  border: 2;
+  border-color: #00BFFF;
+  border-width: 10px;
+}
+
